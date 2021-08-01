@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
+import static com.example.oopproject.HouseDecor.roomName;
+
 public class MainActivity extends AppCompatActivity {
     TextView textView;
 
@@ -62,6 +64,30 @@ public class MainActivity extends AppCompatActivity {
             */
 
             // Dynamic Polymorphism
-            
+            /*
+            Animals myAnimal = new Animals();
+            myAnimal.walk();
+
+            Dog myDog = new Dog();
+            myDog.peeing();
+            myDog.walk();
+            */
+
+
+        // Abstract
+        /*
+        User myUser = new User("Hamza", "Engineer", 22);
+        System.out.println(myUser.information());
+        */
+
+
+
+        // Interface
+        Piano newPiano = new Piano();
+        newPiano.brand = "Yamaha";
+        newPiano.digital = false;
+        newPiano.info();
+
+        System.out.println(roomName);
     }
 }

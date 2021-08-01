@@ -1,6 +1,6 @@
 package com.example.oopproject;
 
-public class User {
+public class User extends People{
 
     // Property
 
